@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+    font-family: monospace;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td {
+    border-left: 1px solid black;
+    padding: 10px;
+    /* Add right border to the last column cells */
+}
+
+/* Optional: Adding a right border to the last column to make it consistent */
+td:last-child {
+    border-right: 1px solid black;
+}
+
+/* Remove other borders */
+td, th {
+    border-top: none;
+    border-bottom: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 10px 0; /* Adjust based on your design */
+}
+
+footer h1, footer h2 {
+    margin: 5px 0;
+}
